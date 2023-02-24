@@ -12,14 +12,14 @@ const Skills = ({data}) => {
     const setTabsAlignment = (tab) => tab === 'hard' ?
     'text-left' :'text-right';
     const tabs =(            
-        <div className='flex '>
+        <div className='flex'>
             {['hard','soft'].map( (el) =>
                 <button key ={el} 
                         type='button'
                         className={`btn ${setBg(el)} ${setTabsAlignment(el)}`}
                         onClick={ () => setActiveTab(el)}
                 > 
-                    {el} Skills
+                    <p className='h-4'>{el} Skills</p>
                 </button>
         )}
         </div>)

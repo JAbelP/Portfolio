@@ -12,7 +12,7 @@ const Programming = () => {
 
         {/* //I want it to be a white square that takes up only what it needs to take up */}
         {/* <!-- component --> */}
-    <Link href="/joke">
+    <Link href="/joke"> 
             <button className="group flex items-center bg-transparent p-2 px-9 text-xl font-bold font-mono tracking-widest text-black">
                 <span className="relative pb-1 text-black after:transition-transform after:duration-400 
                 after:ease-out after:absolute after:bottom-0 after:right-0 after:block after:h-[2px] after:w-full after:origin-bottom-right 

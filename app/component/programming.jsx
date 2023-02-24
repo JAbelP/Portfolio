@@ -5,14 +5,14 @@ import { useRouter } from 'next/navigation'
 
 const Programming = () => {
   const currentURL = useRouter();
-  console.log(currentURL);
+  console.log("The current URL for this projects is: ",currentURL);
 
   return (
     <div className='flex flex-col rounded-full bg-yellow text-black w-50 justify-center drop-shadow-[0px_0px_35px_rgba(255,0,0,0.25)]'>
 
         {/* //I want it to be a white square that takes up only what it needs to take up */}
         {/* <!-- component --> */}
-    <Link href="/joke"> 
+    <Link href="/projects"> 
             <button className="group flex items-center bg-transparent p-2 px-9 text-xl font-bold font-mono tracking-widest text-black">
                 <span className="relative pb-1 text-black after:transition-transform after:duration-400 
                 after:ease-out after:absolute after:bottom-0 after:right-0 after:block after:h-[2px] after:w-full after:origin-bottom-right 

@@ -2,9 +2,8 @@ import React from 'react'
 
 const ProfessionalExperience = ({data}) => {
   const {title, experiences } = data;
-  console.log("this is data", {data})
-  console.log("this is data", {data})
-  console.log("this is title", {title})
+//   console.log("this is data", {data})
+//   console.log("this is title", {title})
     return (
     <section>
         <h2> {title}</h2>

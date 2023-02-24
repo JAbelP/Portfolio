@@ -1,11 +1,11 @@
 "use client"
 import React from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/router'
 
 const Programming = () => {
   const currentURL = useRouter();
-  console.log("The current URL for this projects is: ",currentURL);
+  console.log("The current URL for this projects is: ",currentURL?.query);
 
   return (
     <div className='flex flex-col rounded-full bg-yellow text-black w-50 justify-center drop-shadow-[0px_0px_35px_rgba(255,0,0,0.25)]'>

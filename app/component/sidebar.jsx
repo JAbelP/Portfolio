@@ -9,10 +9,10 @@ const Sidebar = ({data}) => {
     <div className = 'bg-black flex flex-col  content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed'>
         <div className='text-white flex flex-col  items-center'>
         <Image 
-          priority
-          width={ 200 }
-          height={ 200 }
-          src='/images/julian-wan-WNoLnJo7tS8-unsplash.jpg'
+          // priority
+          width={ 300 }
+          height={ 300 }
+          src='/images/ProfilePicture.png'
           className='rounded-full h-full'
 
         />

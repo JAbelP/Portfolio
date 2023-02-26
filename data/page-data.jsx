@@ -62,7 +62,7 @@ export const professionalData = {
 			current: false,
 		},
 		{
-			role: "Maker Space Engineer, UNCC. (Nov 2019 - 2021)",
+			role: "Maker Space Engineer, UNCC. (Nov 2019 - Dec 2021)",
 			description:["Taught students how to create projects such as electric scooters and automated flower gardens using IoT and DIY equipment",
 			"Created promotional websites using HTML and CSS for both web and mobile",
 

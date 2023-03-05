@@ -16,6 +16,7 @@ module.exports = {
 			"green-light": "#d2eff1",
 			white: "#fff",
       current: 'currentColor',
+      transparent: 'transparent',
   },
   fontFamily:{
     sans:["Georgia", "sans-serif"],

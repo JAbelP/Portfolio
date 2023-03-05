@@ -71,3 +71,69 @@ export const professionalData = {
 		},
 	],
 };
+
+export const personalProjects = {
+	allProjects:[
+		{language: "Python",
+			projectDetails:[
+			{
+				projectName: "Context for Docx",
+				Brief: "By typing in keywords, users can quickly find matching documents within a directory",
+				link: "https://github.com/JAbelP/ContextForDocx"
+			  },
+			  {
+				projectName: "Volt Switch TV Input",
+				Brief: "Change the Input for a non-IOT TV.",
+				link: "https://github.com/JAbelP/volt-switch-tvinput-skill"
+			  },
+			  {
+				projectName: " HomeWebsite / Backend",
+				Brief: "Backend to control serveral non-IOT devices around the house",
+				link:"https://github.com/JAbelP/HomeWebsite/tree/main/backend",
+			  },
+			  {
+				projectName: "Thunder Rat sing",
+				Brief: "This caused Thunder rat to sing for the outro",
+				link:"https://github.com/JAbelP/thunderrat-is-going-to-sing-skill",
+			  },
+			  {
+				projectName: " Taser Skill",
+				Brief: "Thunder rat can now use the attached taser",
+				link:"https://github.com/JAbelP/taser-skill",
+			  },
+			  {
+				projectName: "Lights to yellow",
+				Brief: "This caused all the lights to changer to yellow using multithreading.",
+				link:"https://github.com/JAbelP/signal-beam-changelightstoyellow-skill",
+			  },
+			  {
+				projectName: "Tv Power Skill",
+				Brief: "Turn on a non-IOT TV",
+				link:"https://github.com/JAbelP/light-screen-tvpower-skill",
+			  },
+		]},
+		{language:"C++",
+			projectDetails:[
+				{
+					projectName: "Esp32 Tv Remote",
+					Brief: "My Roomates kept losing the remote and we don't have smart TV, with an esp32 I solved the issue.",
+					link:"https://github.com/JAbelP/esp32-Tv-Remote",
+				  }
+		]},
+		{language:"Javascript",
+			projectDetails:[
+				{
+					projectName: "Portfolio",
+					Brief: "You are looking at it now! ",
+					link:"https://github.com/JAbelP/Portfolio",
+				  },
+				  {
+					projectName:"Java script projects",
+					Brief:"These are a group of projects by Zenva to learn Javascript",
+					link:"https://github.com/JAbelP/JavaScriptProjects"
+				  }
+			]
+	    }]
+}
+
+  
